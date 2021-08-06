@@ -1,0 +1,11 @@
+@import "layouts/background";
+@import "components/navbar";
+@import "components/jumbotron";
+@import "components/carousel";
+@import "components/button";
+@import "layouts/footer";
+
+//set the font for website
+body{
+    font-family: serif;
+}

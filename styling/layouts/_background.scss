@@ -1,0 +1,18 @@
+#oceanBackground{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    object-fit: cover;
+}
+//change background to a regular picture if the device's screen is 768px or lower
+@media screen and (max-device-width: 768px){
+    #oceanBackground{
+        display: none;
+    }
+    body{
+        background: url("https://images.pexels.com/photos/4602696/pexels-photo-4602696.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260") center center no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+}

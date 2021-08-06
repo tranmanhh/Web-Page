@@ -1,0 +1,14 @@
+{
+  "name": "our-lovely-course",
+  "version": "1.0.0",
+  "description": "A complete website using HTML, CSS, SASS, JQuery, and Bootstrap",
+  "main": "index.js",
+  "scripts": {
+    "compile-sass": "node-sass styling/style.scss styling/style.css"
+  },
+  "author": "Manh Dinh",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^6.0.1"
+  }
+}

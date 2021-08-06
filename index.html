@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Our lovely course</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="styling/style.css">
+    </head>
+    <!--create the scroll spy to update the navigation bar when users scroll-->
+    <body data-spy="scroll" data-target="#myNavbar">
+        <!--create background video-->
+        <video id="oceanBackground" autoplay loop muted>
+            <source src="videos/oceanBackground.mp4" type="video/mp4">
+        </video>
+
+        <!--create navigation bar-->
+        <nav role="navigation" class="navbar navbar-custom navbar-fixed-top" id="myNavbar">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="index.html">Complete Web Development Course</a>
+                    <button type="button" class="navbar-toggle" data-target="#navbarContents" data-toggle="collapse">
+                        <span class="sr-only">collapsible icon</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="navbar-collapse collapse" id="navbarContents">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#promise">Our promise</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!--create jumbotron presenting the home page-->
+        <div class="jumbotron" id="home">
+            <div class="container">
+                <h1>Complete Web Development Course</h1>
+                <p>Go from Zero-skills to Cash-Earning Web Developer</p>
+                <button class="btn btn-default">Join us Now!</button>
+            </div>
+        </div>
+
+        <!--create jumbotron presenting the course's descriptions-->
+        <div class="jumbotron" id="about">
+            <div class="container">
+                <div id="quality" class="col-md-4">
+                    <img src="images/stars.png" alt="stars">
+                    <h2>High Quality Lectures</h2>
+                    <p>All lectures have been very well prepared for the best learning experience of future developers.</p>
+                </div>
+                <div id="richContent" class="col-md-4">
+                    <img src="images/screen.png" alt="screen">
+                    <h2>+80H of Rich Content</h2>
+                    <p>Learn all major Web technologies: HTML-5, CSS3, Javascript, JQuery, Twitter Bootstrap, PHP, mySQL, Wordpress, Ajax, XML, JSON, Mobile Apps, API's Google Maps, Facebook, and MORE!</p>
+                </div>
+                <div id="getHelp" class="col-md-4">
+                    <img src="images/baywatch.png" alt="help">
+                    <h2>Get Help Anytime!</h2>
+                    <p>Post your questions in the forums of the course where I and thousands of students are happy to help!</p>
+                </div>
+            </div>
+        </div>
+
+        <!--create a carousel-->
+        <div class="container" id="promise">
+            <div class="carousel slide" id="carousel" data-ride="carousel">
+                <!--create seven slides-->
+                <ol class="carousel-indicators">
+                    <li class="active" data-target="#carousel" data-slide-to="0"></li>
+                    <li data-target="#carousel" data-slide-to="1"></li>
+                    <li data-target="#carousel" data-slide-to="2"></li>
+                    <li data-target="#carousel" data-slide-to="3"></li>
+                    <li data-target="#carousel" data-slide-to="4"></li>
+                    <li data-target="#carousel" data-slide-to="5"></li>
+                    <li data-target="#carousel" data-slide-to="6"></li>
+                </ol>
+                <!--create seven pictures with captions for each slide. Each one contains of 4 out of 12 columns.-->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="https://static.vecteezy.com/system/resources/previews/002/223/886/non_2x/blank-blackboard-or-chalkboard-with-eraser-and-chalk-for-background-black-texture-to-add-text-or-graphic-design-free-photo.jpg" id="board" alt="board">
+                        <div class="carousel-caption">
+                            <h3>Crystal Clear and Engaging 100% Hands-on Lectures.</h3>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="https://previews.123rf.com/images/jemastock/jemastock1709/jemastock170915110/86221435-puzzle-pieces-icon-image-vector-illustration-design-black-and-white.jpg" alt="puzzle">
+                        <div class="carousel-caption">
+                            <h3>Full curriculum including all major Web Technologies: Font-End, Back end, Mobile Apps, and API's.</h3>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="https://learnvietnamesewithannie.com/data/images/555e1f186ffe9a16225068adb1fe2d3c.jpg" alt="beginner">
+                        <div class="carousel-caption">
+                            <h3>Start from Zero-Skills! No prior Knowledge Required!</h3>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="https://tuoitredoisong.net/wp-content/uploads/2019/10/project-co-nghia-la-gi.jpg" alt="project">
+                        <div class="carousel-caption">
+                            <h3>Build over 15 real professional Websites Games and Mobile apps.</h3>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="https://store-images.s-microsoft.com/image/apps.23742.13816767389916056.fa9940e3-4993-4c31-bbf8-e6218cf3239b.52f1ef74-e53c-416c-81c6-7746e97d305c?mode=scale&q=90&h=1080&w=1920" alt="money">
+                        <div class="carousel-caption">
+                            <h3>Start Making money from week 1 and Earn over $30,000 by the time you finish the course.</h3>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="data:image/jpeg;base64,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" alt="career">
+                        <div class="carousel-caption">
+                            <h3>Enhance your career and employability skills.</h3>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/infinite-time-black-and-white-steve-purnell.jpg" alt="time">
+                        <div class="carousel-caption">
+                            <h3>Lifetime access to all course material.</h3>
+                        </div>
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#carousel" data-slide="prev">
+                    <span class="sr-only">carousel previous</span>
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#carousel" data-slide="next">
+                    <span class="sr-only">carousel next</span>
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+        </div>
+
+        <!--create footer-->
+        <div id="footer">
+            <div class="container">
+                <p>&copy; Develop with chong Minh A'nh.</p>
+            </div>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script>
+            //set the interval before moving to a new slide in carousel to 2 seconds
+            $(".carousel").carousel({
+                interval: 2000
+            });
+            //stop the carousel when users hover on it
+            $(".carousel").on("slide.bs.carousel", function(event){
+                $(event.target).hover(function(){
+                    $(this).stop();
+                });
+            });
+        </script>
+    </body>
+</html>

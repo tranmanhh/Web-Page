@@ -1,0 +1,42 @@
+//style the container of the carousel
+#promise{
+    margin-top: 220px;
+}
+//style the carousel
+#carousel{
+    margin: 0 auto;
+    text-align: center;
+    width: 60%;
+    //style the carousel image
+    img{
+        margin: 0 auto;
+        height: 400px;
+        width: 80%;
+    }
+}
+//style the carousel image caption
+.carousel-caption{
+    position: relative;
+    left: auto;
+    right: auto;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding-top: 0;
+    margin-top: 30px;
+}
+//style the carousel image when screen's width is between 410px and 768px
+@media screen and (min-width: 410px) and (max-width: 768px) {
+    #carousel img{
+        height: 225px;
+    }
+}
+//style the carousel image when screen's width is 410px or below
+@media screen and (max-width: 410px) {
+    #carousel img{
+        height: 150px;
+    }
+    .carousel-caption h3{
+        font-size: 14px;
+    }
+}
